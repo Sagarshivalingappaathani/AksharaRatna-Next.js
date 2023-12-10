@@ -14,7 +14,7 @@ const Navbar = () => {
     <header className="header">
 
       <Link href="/" className="logo">
-        ReadMe
+      Read<span class="yellow">me</span>
       </Link>
 
       <nav className={`navbar ${isNavbarVisible ? 'show' : ''}`}>
