@@ -4,7 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .main {
   width: 100%;
   min-height: 100vh;
@@ -69,9 +68,9 @@
 
 
 /* Tailwind Styles */
-
+/*
 .black_btn {
-  @apply rounded-full border border-black bg-black py-1.5 px-5 text-white transition-all hover:bg-white hover:text-black text-center text-sm font-inter flex items-center justify-center;
+  @apply rounded-full border border-black bg-black py-1.5 px-5 text-white transition-all hover:bg-white hover:text-black text-center text-sm flex items-center justify-center;
 }
 
 .outline_btn {
@@ -115,7 +114,7 @@
 .prompt_layout {
   @apply space-y-6 py-8 sm:columns-2 sm:gap-6 xl:columns-3;
 }
-
+*/
 
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
 
@@ -169,13 +168,24 @@ section {
   padding: 2rem 9%;
 }
 
+.no-underline {
+  text-decoration: none;
+}
+
 .yellow {
   color: var(--yellow);
 }
 
 .logo {
+  color: #1f1f1f;
   font-size: 3.6rem;
   font-weight: 700;
+}
+
+.log {
+  color: #1f1f1f;
+  font-size: 2rem;
+  font-weight: 500;
 }
 
 .header {
@@ -278,4 +288,181 @@ section {
   }
 }
 
+/*hero section*/
 
+.home {
+  padding-top: 13rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 30px;
+}
+
+section {
+  padding: 2rem 9%;
+}
+
+.home .image img {
+  width: 100%;
+}
+
+
+.home .content h1 {
+  font-size: 5.8rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+.home .content p {
+  color: var(--grey);
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.home .content .home-btn {
+  display: inline-block;
+  color: var(--white);
+  font-weight: 500;
+  border-radius: 0.5rem;
+  background-color: var(--yellow);
+  padding: 1rem 1.5rem;
+  margin-top: 1rem;
+  transition: var(--transition);
+}
+
+.home .content .home-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--box-shadow);
+}
+
+.home .content .home-btn {
+  display: inline-block;
+  color: var(--white);
+  font-weight: 500;
+  border-radius: 0.5rem;
+  background-color: var(--yellow);
+  padding: 1rem 1.5rem;
+  margin-top: 1rem;
+  transition: var(--transition);
+}
+
+.home .content .home-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--box-shadow);
+}
+
+@media (max-width: 999px) {
+  .home .content h1 {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .home .content h1 {
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .home .content p {
+    font-size: inherit;
+    margin-bottom: 1.5rem;
+  }
+
+  .home {
+    grid-template-columns: 1fr;
+  }
+
+  .home .image {
+    max-width: 40rem;
+    margin: 0 auto;
+  }
+}
+
+/*carousel container*/
+.carousel-container {
+  width: 100%;
+  height: 100%;
+  /*height: calc(100vh - 80px);  /*Subtract the navbar height from the viewport height */
+}
+
+
+/*Author details*/
+
+.authorDetails {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.authorPhoto {
+  flex: 1;
+  min-width: 200px;
+  height: 200px;
+  /* Add other styles for the author's photo */
+}
+
+.authorInfo {
+  flex: 2;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+  .authorDetails {
+    flex-direction: column;
+  }
+
+  .authorPhoto,
+  .authorInfo {
+    flex: 1;
+    min-width: auto;
+  }
+}
+
+/*books*/
+/* YourComponent.module.css */
+.margin{
+  margin: 25px;
+}
+.cardContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px !important;
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+}
+
+.customCard {
+  width: 44px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+  margin: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.customCard:hover {
+  transform: scale(1.05);
+}
+
+.card-img-top {
+  border-bottom: 1px solid #ddd;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  color: #555;
+  font-size: 1.5rem;
+}

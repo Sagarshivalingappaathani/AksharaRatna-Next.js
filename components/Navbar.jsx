@@ -13,15 +13,15 @@ const Navbar = () => {
   return (
     <header className="header">
 
-      <Link href="/" className="logo">
-      Read<span class="yellow">me</span>
+      <Link href="/" className="logo no-underline">
+        Read<span class="yellow">me</span>
       </Link>
 
       <nav className={`navbar ${isNavbarVisible ? 'show' : ''}`}>
-        <Link href="#home">Home</Link>
-        <Link href="#services">Services</Link>
-        <Link href="#about">About Us</Link>
-        <Link href="#contact">Contact Us</Link>
+        <Link className="log no-underline" href="#home">Home</Link>
+        <Link className="log no-underline" href="#services">Books</Link>
+        <Link className="log no-underline" href="#about">About Us</Link>
+        <Link className="log no-underline" href="#contact">Contact Us</Link>
       </nav>
 
       <div className="hamburger" onClick={handleHamburgerClick}>
