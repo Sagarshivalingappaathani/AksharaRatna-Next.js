@@ -15,7 +15,7 @@ const AuthorInfo = () => {
           />
         </div>
 
-        <div className="lg:w-2/3 md:w-1/2 p-3">
+        <div className="lg:w-2/3 md:w-1/2 p-5">
           <h2 className="text-3xl font-bold mb-4">Shree Sharva</h2>
           <p className="text-gray-700">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

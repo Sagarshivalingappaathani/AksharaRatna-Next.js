@@ -16,9 +16,9 @@ const Book = () => {
           />
         </div>
 
-        <div className="lg:w-2/3 md:w-1/2 ">
+        <div className="lg:w-2/3 md:w-1/2 p-3">
           <h2 className="text-3xl font-bold mb-4">Summary Title</h2>
-          <p className="text-gray-700 p-3">
+          <p className="text-gray-700 ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
