@@ -12,10 +12,10 @@ const Footer = () => {
         </span>
         <ul className="flex flex-wrap items-center mt-3 text-xl font-medium text-white sm:mt-0">
           <li>
-            <a href="#" className="hover:underline me-4 md:me-6">About</a>
+            <a href="./" className="hover:underline me-4 md:me-6">About</a>
           </li>
           <li>
-            <a href="#" className="hover:underline me-4 md:me-6">Books</a>
+            <a href="#books" className="hover:underline me-4 md:me-6">Books</a>
           </li>
           <li>
             <a href="#" className="hover:underline me-4 md:me-6">Privacy and policy</a>

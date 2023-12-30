@@ -5,8 +5,8 @@ import styles from '../styles/global.css'
 
 const Books = () => {
   return (
-    <>
-      <h1 className='font-semibold lg:text-5xl my-8 text-center text-orange-600' >Our Books</h1>
+    <section id="books">
+      <h1 className='font-semibold text-5xl my-8 text-center text-orange-600' >Our Books</h1>
       <div className="flex flex-wrap w-full lg:ml-10 lg:mr-10 justify-evenly">
           <div className="md:w-1/2 lg:w-1/4 p-8">
             <div className="bg-white rounded-lg shadow-md transform hover:scale-105 transition-transform duration-300 ease-in-out">
@@ -72,7 +72,7 @@ const Books = () => {
             </div>
           </div>
       </div>
-    </>
+    </section>
   );
 };
 

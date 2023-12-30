@@ -18,10 +18,9 @@ const Navbar = () => {
       </Link>
 
       <nav className={`navbar ${isNavbarVisible ? 'show' : ''}`}>
-        <Link className="log no-underline" href="#home">Home</Link>
-        <Link className="log no-underline" href="#services">Books</Link>
-        <Link className="log no-underline" href="#about">About Us</Link>
-        <Link className="log no-underline" href="#contact">Contact Us</Link>
+        <Link href="/" className="log no-underline">Home</Link>
+        <Link href="#books" className="log no-underline">Books</Link>
+        <Link href="#contact" className="log no-underline">Contact Us</Link>
       </nav>
 
       <div className="hamburger" onClick={handleHamburgerClick}>
