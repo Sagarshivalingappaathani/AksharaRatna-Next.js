@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const AuthorInfo = () => {
+const Authorinfo = () => {
   return (
     <>
       <h2 className="text-4xl lg:text-5xl font-semibold mb-4 text-center mt-10 text-orange-600">Author Details</h2>
@@ -30,4 +30,4 @@ const AuthorInfo = () => {
   );
 };
 
-export default AuthorInfo;
+export default Authorinfo;
