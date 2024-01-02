@@ -3,7 +3,7 @@ import Image from "next/image";
 const AuthorInfo = () => {
   return (
     <>
-      <h2 className="text-4xl lg:text-5xl font-semibold mb-4 text-center mt-10 text-orange-600">ಲೇಖಕರ ಪರಿಚಯ</h2>
+      <h2 className="text-4xl lg:text-5xl font-semibold text-center mt-10 text-orange-600">ಲೇಖಕರ ಪರಿಚಯ</h2>
       <div className="mt-10 lg:mr-44 flex flex-col md:flex-row items-center">
         <div className="lg:1/3 lg:ml-24 mb-4 md:mr-8 md:w-1/2 hover:scale-105 transition-transform duration-300 ease-in-out">
           <Image
