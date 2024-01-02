@@ -3,7 +3,7 @@ import Image from "next/image";
 const AuthorInfo = () => {
   return (
     <>
-      <h2 className="text-4xl lg:text-5xl font-semibold mb-4 text-center mt-10 text-orange-600">Author Details</h2>
+      <h2 className="text-4xl lg:text-5xl font-semibold mb-4 text-center mt-10 text-orange-600">ಲೇಖಕರ ಪರಿಚಯ</h2>
       <div className="mt-20 lg:mr-44 flex flex-col md:flex-row items-center">
         <div className="lg:1/3 lg:ml-24 mb-4 md:mr-8 md:w-1/2 hover:scale-105 transition-transform duration-300 ease-in-out">
           <Image
@@ -16,14 +16,15 @@ const AuthorInfo = () => {
         </div>
 
         <div className="lg:w-2/3 md:w-1/2 p-5">
-          <h2 className="text-3xl font-bold mb-4">Shree Sharva</h2>
+          <h2 className="text-3xl font-bold mb-4">ರಮ್ಯ. ಎಸ್.</h2>
           <p className="text-gray-700">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          ಆರಂಭದಲ್ಲಿ "ಶ್ರೀರಾಜರಾಜೇಶ್ವರಿ" ಎನ್ನುವ ಹೆಸರಿನಿಂದ ಬರವಣಿಗೆ ಆರಂಭಿಸಿದ ಇವರ ನಿಜನಾಮಧೇಯ ರಮ್ಯ ಎಸ್. ನಿರಂತರ ಕಲಿಕೆಯಲ್ಲಿ ಆಸಕ್ತಿ ಹೊಂದಿರುವ ಇವರು ವೃತ್ತಿಯಲ್ಲಿ ಶಿಕ್ಷಕಿ, ಪ್ರವೃತಿಯಲ್ಲಿ ಆಪ್ತ ಸಮಾಲೋಚಕಿ ಮತ್ತು ಹವ್ಯಾಸಿ ಬರಹಗಾರ್ತಿ.
+          ʼಸಕ್ಕರೆ ನಾಡುʼ ಎಂದೇ ಪ್ರಸಿದ್ಧವಾಗಿರುವ ಮಂಡ್ಯ ತಾಲ್ಲೂಕಿನ ದ್ಯಾಪಸಂದ್ರ ಗ್ರಾಮದವರಾದ ರಮ್ಯ, ಮಂಡ್ಯದ  ಕಾರ್ಮೆಲ್‌ ಕಾನ್ವೆಂಟ್ ಶಾಲೆಯಲ್ಲಿ ಶಾಲಾ ಶಿಕ್ಷಣ, ಜನತಾ ಶಿಕ್ಷಣ ಸಂಸ್ಥೆಯಲ್ಲಿ ಪದವಿವರೆಗಿನ ಶಿಕ್ಷಣ  ಮತ್ತು ಮೈಸೂರು ವಿಶ್ವವಿದ್ಯಾಲಯದಲ್ಲಿ ಜೈವಿಕ ತಂತ್ರಜ್ಞಾನ, ಶಿಕ್ಷಣ ಮತ್ತು ಆಂಗ್ಲ ಸಾಹಿತ್ಯದಲ್ಲಿ ಸ್ನಾತಕೋತ್ತರ ಪದವಿ ಶಿಕ್ಷಣ ಪಡೆದಿದ್ದಾರೆ. 
+          ಓದು ಮತ್ತು ಬರವಣಿಗೆ ಇವರ ನೆಚ್ಚಿನ ಹವ್ಯಾಸ. ಪದವಿಪೂರ್ವ ಶಿಕ್ಷಣದ ಸಮಯದಲ್ಲಿ ಪತ್ರಿಕೆಗಳಿಗೆ ಸಾಮಾಜಿಕ ಮತ್ತು ಶೈಕ್ಷಣಿಕ ವಿಭಾಗಕ್ಕೆ ಸಂಬಂಧಿಸಿದ್ದ ಲೇಖನಗಳನ್ನು ಬರೆಯುವ ಮೂಲಕ ಬರವಣಿಗೆಯನ್ನು ಆರಂಭಿಸಿದರು. ಜೈವಿಕ ತಂತ್ರಜ್ಞಾನ ಕ್ಷೇತ್ರದಲ್ಲಿ ಸಂಶೋಧನೆಯಲ್ಲಿ ತೊಡಗಿ, ಅನೇಕ ವೈಜ್ಞಾನಿಕ ಮತ್ತು ಸಂಶೋಧನಾ ಲೇಖನಗಳನ್ನು ಬರೆದಿರುವ ರಮ್ಯ, ಪ್ರತಿಲಿಪಿ ವೇದಿಕೆಯ ಮೂಲಕ ಸಿಕ್ಕ ಪ್ರೋತ್ಸಾಹದಿಂದ ಕಥೆ, ಕಾದಂಬರಿಗಳನ್ನು ಬರೆಯಲು ಪ್ರೇರಿತರಾದರು. 2023 ರಲ್ಲಿ ಇವರ ಮೊದಲ ರಾಜಕೀಯ ರೋಚಕತೆ ಹೊಂದಿರುವ ಸಾಮಾಜಿಕ ಕಾದಂಬರಿ "ಪ್ರತ್ಯುತ್ಕ್ರಮ" ಮತ್ತು ಹೆಣ್ಣಿನ ಮನದ ಭಾವನೆಗಳನ್ನು ವ್ಯಕ್ತ ಪಡಿಸುವ ಒಂಬತ್ತು ಭಾವನಾತ್ಮಕ ಕಥೆಗಳನ್ನು ಹೊಂದಿರುವ “ನೇರಳೆ ಅಂಚು ಗಿಣಿಹಸಿರು ಸೀರೆ” ಕಥಾಸಂಕಲನ ಬಿಡುಗಡೆಯಾಗಿದ್ದು, ಸಾಹಿತ್ಯಾಭಿಮಾನಿಗಳ ಮೆಚ್ಚುಗೆ ಗಳಿಸಿದೆ. ವಿಜ್ಞಾನ, ತಂತ್ರಜ್ಞಾನ , ವೈದ್ಯಕೀಯ, ಕೌಟುಂಬಿಕ ಮತ್ತು ಸಾಮಾಜಿಕ ಕಳಕಳಿಯ ಕಥಾವಸ್ತುಗಳು ಆರಿಸಿಕೊಂಡು, ವಿಶಿಷ್ಟವಾದ ಕಥೆಗಳನ್ನು ಹೆಣೆಯುವ ನಿಪುಣತೆ ಹೊಂದಿದ್ದಾರೆ. 
           </p>
-          <h4 className="text-2xl font-bold my-6">Email: author@example.com</h4>
+          <h4 className="text-2xl font-bold my-6">Email: sasha_0227@rediffmail.com</h4>
           <h4 className="text-2xl font-bold my-6">Phone: +1234567890</h4>
-          <h4 className="text-2xl font-bold my-6">Address: 123 Street, City</h4>
+          <h4 className="text-2xl font-bold my-6">Address: #679, GPRajaratnam road, Sir MV nagara, 8th block , Bengaluru-560091.</h4>
         </div>
       </div>
     </>
