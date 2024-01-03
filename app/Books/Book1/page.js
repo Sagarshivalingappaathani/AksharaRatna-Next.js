@@ -20,8 +20,8 @@ const Page= () => {
           />
           <Button/>
         </div>
-        <div className="lg:w-4/5 md:w-1/2 p-3">
-          <h2 className="text-4xl font-bold text-orange-600 mb-5 ">ಪ್ರತ್ಯುತ್ಕ್ರಮ</h2>
+        <div className=" ml-5 lg:w-4/5 md:w-1/2">
+          <h2 className="text-4xl font-bold text-green-600 mb-5 ">ಪ್ರತ್ಯುತ್ಕ್ರಮ</h2>
           <p className="text-gray-700 ">
             ಕಥೆಯ ಆರಂಭ ಮಂಗಳೂರಿನಲ್ಲಿ. ಪಿಯುಸಿಯಲ್ಲಿ ಮೊದಲ ರ್ಯಾನ್ಕ್ ಗಳಿಸಿದ್ದ ಪ್ರತಿಭಾವಂತ ತರುಣ ಪ್ರಥಮ್ ಸಾವಿನ ಸುದ್ದಿ ಹೇಳುವ ಮೂಲಕ ಓದುಗರನ್ನು ಸೆಳೆಯುವ ಕತೆ, ಅದೇ ಸಮಯಕ್ಕೆ ಅಲ್ಲಿದ್ದ ಶಿಕ್ಷಣ ಮಂತ್ರಿ ಜಯಚಂದ್ರ ಸಾಗರ್ ನಡುವಳಿಕೆಯ ಮೇಲೆ ಅನುಮಾನ ಮೂಡಿಸುತ್ತದೆ. ಮೇಲ್ನೋಟಕ್ಕೆ ಅದು ಆತ್ಮಹತ್ಯೆ ಎನ್ನುವಂತೆ ಕಾಣಿಸಿದರು, ಅದರ ಬಗ್ಗೆ ಅನುಮಾನ ಪಟ್ಟ ಪ್ರಥಮ್ ಗೆಳೆಯ ಸಮೀರ್ ತಂದೆ ಸಾವಿಗೆ ಕಾರಣ ಹುಡುಕುತ್ತಾ ಹೋಗುತ್ತಾರೆ. ಅವರಿಗೆ ಅದೊಂದು ಹತ್ಯೆ ಎಂದು ತಿಳಿಯುತ್ತದೆ. ಅದರ ಬಗ್ಗೆ ಇನ್ನಷ್ಟು ವಿಷಯ ತಿಳಿಯಲು ಮುಂದಾದಾಗ ಅವರು, ರಸ್ತೆ ಅಪಘಾತದಲ್ಲಿ ಸಾವನ್ನಪ್ಪುತ್ತಾರೆ. ಅಲ್ಲಿಗೆ ಪ್ರಥಮ್ ಹತ್ಯೆಯಾಗಿರುವುದು ನಿಜ ಎನ್ನುವ ಕೌತುಕದ ಬೀಜ ಬಿತ್ತುವ ಕಥೆ, ಮೌನಯುದ್ಧವನ್ನು ಸಾರುತ್ತದೆ. 
 
@@ -59,53 +59,46 @@ const Page= () => {
       <section className=" text-gray-100">
         <div className="container px-6 py-12 mx-auto">
           <div className="grid items-center gap-4 xl:grid-cols-5">
-            <div className="max-w-2xl mx-auto my-8 space-y-4 text-center xl:col-span-2 xl:text-left">
-              <h2 className="text-4xl font-bold text-orange-600 mb-5 ">ಪ್ರತ್ಯುತ್ಕ್ರಮ</h2>
-              <p className="text-orange-600">Pri ex magna scaevola moderatius. Nullam accommodare no vix, est ei diceret alienum, et sit cetero malorum. Et sea iudico consequat, est sanctus adipisci ex.</p>
-            </div>
-            <div className="p-6 xl:col-span-3">
+          <h2 className="text-4xl font-bold text-orange-600 mb-5 ">What Our Readers say</h2>
+            <div className="xl:col-span-6">
               <div className="grid gap-4 md:grid-cols-2">
                 <div className="grid content-center gap-4">
                   <div className="p-6 rounded shadow-md bg-gray-900">
-                    <p>An audire commodo habemus cum. Ne sed corrumpit repudiandae.An audire commodo habemus cum. Ne sed corrumpit repudiandae.</p>
+                    <p>"ಪ್ರತ್ಯುತ್ಕ್ರಮ" ಮೌನಯುದ್ದ - ಹೆಸರಲ್ಲಿ ಮೌನವಿದ್ದರೂ ಕಥೆಯಲ್ಲಿ ಬಹಳ ಸದ್ದಿತ್ತು. ಮೊದಲ ಸಂಚಿಕೆಯಲ್ಲಿ ಪ್ರಥಮ್ ಶ್ರೇಯಾಂಕಿತನ ಆತ್ಮಹತ್ಯೆ, ಅದರ ಹಿನ್ನೆಲೆ ಹುಡುಕಿ ಹೊರಟ ವಕೀಲರ ಹತ್ಯೆ ಎಂಬುದನ್ನು ಓದಿದಾಗ ಇದೊಂದು ಎಜುಕೇಶನ್ ಮಾಫಿಯಾ ಕಥೆ ಇರಬಹುದು ಎನಿಸಿತು. ಮೊದಲಿಗೆ ಅನುಮಾನ ತಿರುಗಿದ್ದು ಜಯಚಂದ್ರ ಸಾಗರ್ ಅವರ ಕಡೆಗೆ. 9 ವರ್ಷಗಳಷ್ಟು ಮುಂದಕ್ಕೆ ಕಥೆ ಓಡಿದ ನಂತರ ಬಂದ ಕ್ರೀಡಾ ಅಕ್ರಮಗಳು, ಕ್ರೀಡಾ ಶಾಲೆಯ ಅವ್ಯವಹಾರ ಎತ್ತಿ ಹಿಡಿದ ರೀತಿ, ಯಾವುದೋ ಮುಖ್ಯ ಹಗರಣ ಮುಚ್ಚಿ ಹಾಕುವ ಅಧಿಕಾರ ಲಾಲಸೆಯ ಕಥೆ ಇರಬಹುದು ಅನಿಸಿತು. ಪ್ರೇರಣಾಳ ಆಗಮನದ ನಂತರ ಇದೊಂದು ಆನರ್ ಕಿಲ್ಲಿಂಗ್ ಪ್ರಕರಣ ಇರಬಹುದಾ ಅನಿಸಿದರೂ ಕಡೆಯಲ್ಲಿ ಇದ್ಯಾವುದೂ ಅಲ್ಲ, ಯಾವುದೋ ನಿಗೂಢ ಪ್ರಕರಣ ಅನಾವರಣಗೊಂಡಿದೆ ಎಂಬುದನ್ನು ಓದಿದಾಗ , 'ಅರೆರೆ.. ರಾಜಕೀಯ, ಅಧಿಕಾರದ ಕಥೆಯನ್ನು ಹೀಗೂ ಹೇಳಬಹುದೇ!' ಅನಿಸಿದ್ದು ಸತ್ಯ. 
+                        ಇಡೀ ಕಾದಂಬರಿಯಲ್ಲಿ ನೀವು ಹೆಣ್ಣನ್ನು ಚಿತ್ರಿಸಿದ ರೀತಿ ನನಗೆ ಇಷ್ಟವಾಯಿತು. ಅವರ ಚಂದದ,  ಅಷ್ಟೇ ಮೃದುವಾದ ವ್ಯಕ್ತಿತ್ವ ರೂಪಿಸಿ ಬರೆಯುವ ನಿಮ್ಮ ಶೈಲಿ ಈ ನೆಲದ ಸಾಮಾಜಿಕ ಸತ್ಯಕ್ಕೆ ಹತ್ತಿರವೆನಿಸುತ್ತದೆ. 
+                        ಕಾನೂನು ಮತ್ತು ನ್ಯಾಯಾಲಯದ ಕಲಾಪಗಳನ್ನು ಸತ್ಯಕ್ಕೆ ಹತ್ತಿರವಾಗುವಂತೆ ಬರೆದಿರುವುದು ಈ ಕಥೆಯ ಮತ್ತೊಂದು ಪ್ಲಸ್ ಪಾಯಿಂಟ್. ಅರ್ಧಕ್ಕಿಂತ ಹೆಚ್ಚು ಭಾಗದಷ್ಟು ಕಥೆ ಮುಗಿಯುವವರೆಗೆ ಗುಟ್ಟು ಬಿಟ್ಟು ಕೊಡದೆ ಕುತೂಹಲ ಕಾಪಾಡಿಕೊಂಡು ಸಾಗುವ ನಿಮ್ಮ ಬರಹದ ಪರಿ ಅಭಿನಂದನೀಯ. </p>
                     <div className="flex items-center mt-4 space-x-4">
-                      <img src="https://source.unsplash.com/50x50/?portrait?1" alt="" className="w-12 h-12 bg-center bg-cover rounded-full bg-gray-500" />
-                      <div>
-                        <p className="text-lg font-semibold">Leroy Jenkins</p>
-                        <p className="text-sm text-gray-400">CTO of Company Co.</p>
-                      </div>
+                        <p className="text-orange-600 text-lg font-semibold">-ಮಂಜುಳ ಶ್ರೀನಿವಾಸ್.</p>
                     </div>
                   </div>
                   <div className="p-6 rounded shadow-md bg-gray-900">
-                    <p>Sit wisi sapientem ut, pri civibus temporibus voluptatibus et, ius cu hinc fabulas. </p>
+                    <p>ಪ್ರತ್ಯುತ್ಕ್ರಮ ಒಂದು ಮೌನ ಯುದ್ಧ. ಕಥೆ ಓದಲು ಶುರು ಮಾಡುತ್ತಿದ್ದಂತೆ ' ಯಾರು, ಯಾರೊಂದಿಗೆ ಯಾಕಾಗಿ ಯುದ್ಧ ಶುರು ಮಾಡಿದ್ದಾರೆ?' ಎನ್ನುವ ಪ್ರಶ್ನೆಗಳು ಕಥೆಯ ಶುರುವಲ್ಲಿ ಒಬ್ಬ ಪ್ರತಿಭಾವಂತ ವಿದ್ಯಾರ್ಥಿ ರಾಜ್ಯಕ್ಕೆ ಮೊದಲ ಸ್ಥಾನ ಪಡೆದವನ ಆತ್ಮಹತ್ಯೆ ಕುತೂಹಲ ಕೆರಳಿಸಿದರು, ನಡೆದದ್ದು ಕೊಲೆಯೋ ಆತ್ಮಹತ್ಯೆಯು ಎಂದು ಯೋಚಿಸುತ್ತಿದ್ದಂತೆ ಕಥೆ 9 ವರ್ಷ ಮುಂದಕ್ಕೆ ಹೋಗುತ್ತದೆ. ಅಲ್ಲಿ ಮೂಡಿ ಬಂದ ಪಾತ್ರಗಳೇ ಬೇರೆ ರೀತಿ ತೆರೆದುಕೊಳ್ಳುತ್ತಾ ಕಥೆಯಲ್ಲಿ ಆತ್ಮಹತ್ಯೆಯ ಪ್ರಸ್ತುತಿ ಔಚಿತ್ಯವೇನು ಎಂದುಕೊಳ್ಳುವಾಗ, ಕಥೆ ತಿರುವು  ಪಡೆದುಕೊಂಡ ರೀತಿ ಅತ್ಯಂತ ಕೌತುಕದಿಂದ ಕೂಡಿದೆ. ಕಥೆ ಮತ್ತು ಸನ್ನಿವೇಶಗಳ ಪ್ರಸ್ತುತಿ ಮನಸ್ಸು ಮುಟ್ಟುತ್ತದೆ</p>
                     <div className="flex items-center mt-4 space-x-4">
-                      <img src="https://source.unsplash.com/50x50/?portrait?2" alt="" className="w-12 h-12 bg-center bg-cover rounded-full bg-gray-500" />
-                      <div>
-                        <p className="text-lg font-semibold">Leroy Jenkins</p>
-                        <p className="text-sm text-gray-400">CTO of Company Co.</p>
-                      </div>
+                        <p className="text-orange-600 text-lg font-semibold">-ಸುಮನಾ ನಾಯಕ್.</p>
                     </div>
                   </div>
                 </div>
                 <div className="grid content-center gap-4">
                   <div className="p-6 rounded shadow-md bg-gray-900">
-                    <p>Putant omnium elaboraret per ut. Id dicta tritani nominavi quo, mea id justo errem elaboraret.</p>
+                    <p>"ಪ್ರತ್ಯುತ್ಕ್ರಮ" ಮೌನ ಯುದ್ಧ 
+                        ಮನಗಳ ಮೌನ ಯುದ್ಧ 
+                        ಭಾವಗಳ ಮೌನ ಯುದ್ಧ 
+                        ನಿರೀಕ್ಷೆಗಳ ಮೌನ ಯುದ್ಧ 
+                        ತಿರುವುಗಳ ಮೌನ ಯುದ್ಧ ಅಂತರಂಗಗಳ ಮೌನ ಯುದ್ಧ 
+                        ಹೊಸ ಆಶಯಗಳ ಮೌನ ಯುದ್ಧ 
+                        ನ್ಯಾಯಕ್ಕೆ ಜಯ ಸಿಕ್ಕ ಮೌನ ಯುದ್ಧ.  ಆದಿಯಿಂದ ಅಂತ್ಯದವರೆಗೂ ಕುತೂಹಲ ಕಾಯ್ದಿಟ್ಟ ಮೌನ ಯುದ್ಧ.
+                        ಗುಳಿಕೆನ್ನೆಯ ಚೆಲುವ ಪ್ರಣಿತ್ ನೊಂದಿಗೆ ಮೌನವನ್ನೊದ್ದ ಪ್ರತಿಕ್ಷಳೊಂದಿಗೆ ಶುರುವಿಟ್ಟ ಈ ಮೌನ ಯುದ್ಧದ ಪಯಣ ನಿಗೂಢವಾಗಿ  ಸಾಗಿ, ಕೊನೆಗೂ ಯುದ್ಧ ಪೂರ್ಣಗೊಳಿಸಿ, ನ್ಯಾಯ ತನ್ನದಾಗಿಸಿಕೊಂಡ ಪರಿ ಬಹಳ ಸುಂದರವಾಗಿ ಮೂಡಿಬಂದಿದೆ. 
+                        ಕಥೆಯಲ್ಲಿನ ಪ್ರತಿಯೊಂದು ಪಾತ್ರಗಳು ಓದುಗರ ಮನ ಮುಟ್ಟಿದೆ. ಮುಖ್ಯಮಂತ್ರಿಯಾಗಿ, ತಂದೆಯಾಗಿ ಮತ್ತು ಸಮಾಜ ಕಳಕಳಿಯ ವ್ಯಕ್ತಿಯಾಗಿ ಜಯಚಂದ್ರ ಸಾಗರ್ ಪಾತ್ರ ಎಲ್ಲರ ಮನಸೂರೆ ಗೊಳ್ಳುತ್ತದೆ.
+                        ಕುತೂಹಲದಿಂದ ಕೂಡಿದ ಕಥೆಯ ಹಂದರವನ್ನು ಎಳೆ ಎಳೆಯಾಗಿ ಬಿಡಿಸುತ್ತಾ, ಪ್ರತಿ ಹಂತಗಳನ್ನು ಚಿತ್ರಿಸಿದ ರೀತಿ ಅದ್ಭುತವಾಗಿ ಮೂಡಿಬಂದಿದೆ</p>
                     <div className="flex items-center mt-4 space-x-4">
-                      <img src="https://source.unsplash.com/50x50/?portrait?3" alt="" className="w-12 h-12 bg-center bg-cover rounded-full bg-gray-500" />
-                      <div>
-                        <p className="text-lg font-semibold">Leroy Jenkins</p>
-                        <p className="text-sm text-gray-400">CTO of Company Co.</p>
-                      </div>
+                        <p className="text-orange-500 text-lg font-semibold">-ಲಕ್ಷ್ಮಿನಂದ.</p>
                     </div>
                   </div>
                   <div className="p-6 rounded shadow-md bg-gray-900">
-                    <p>Te omnes virtute volutpat sed. Ei esse eros interesset vel, Te omnes virtute volutpat sed. Ei esse eros interesset vel,</p>
+                    <p>ಮೊದಲೆರಡು ಪುಟ ಓದಿದಾಗ ಬರವಣಿಗೆಯಲ್ಲಿ ಏನೋ ವಿಶೇಷತೆ ಇದೆ ಎನಿಸಿತು. ಕೆಲಸದ ಒತ್ತಡದ ನಡುವೆಯೂ ಬಿಡುವು ಸಿಕ್ಕಾಗಲೆಲ್ಲ ಪುಸ್ತಕವನ್ನು ಓದುತ್ತಾ ಮುಂದೆ ಸಾಗಿದಾಗ ನಿಮ್ಮ ನಿರೂಪಣ ಶೈಲಿ ಮತ್ತು ಭಾಷೆಯ ಮೇಲಿನ ಗಟ್ಟಿತನ ಇಷ್ಟವಾಯಿತು. ಹಾಗೆ, ಕಥೆಯಲ್ಲಿ ಮುಂದೇನಾಗುವುದು ಎಂಬ ಕುತೂಹಲ ಮತ್ತು ಕಾತುರತೆ ಎರಡೇ ದಿನದಲ್ಲಿ ಪುಸ್ತಕವನ್ನು ಸಂಪೂರ್ಣವಾಗಿ ಓದಿ ಮುಗಿಸಲು ಪ್ರೇರೇಪಿಸಿತು. ಮೊದಲ ಪ್ರಯತ್ನ ಬಹಳ ಚೆನ್ನಾಗಿ ಮೂಡಿ ಬಂದಿದೆ. ಓದುಗರನ್ನು ಹಿಡಿದಿಟ್ಟುಕೊಳ್ಳುವಂತೆ ಮಾಡುವುದಲ್ಲದೆ, ವಿವಿಧ ಇಲಾಖೆಗಳ ಮತ್ತು ಅಧಿಕಾರಿಗಳ ಕರ್ತವ್ಯದ ಕುರಿತಂತೆ ಆಳ ಅಗಲವನ್ನು ಚೆನ್ನಾಗಿ ಅರಿತಿದ್ದೀರಿ. ಇತ್ತೀಚಿನ ದಿನಗಳಲ್ಲಿ ನಾನು ಓದಿದ ಉತ್ತಮ ಪುಸ್ತಕಗಳ ಪೈಕಿ ಪ್ರತ್ಯುತ್ಕ್ರಮ ಒಂದು ಎಂದು ಹೇಳಲು ಬಯಸುತ್ತಾ, ಮುಂದಿನ ದಿನಗಳಲ್ಲಿ ನಿಮ್ಮಿಂದ ಇನ್ನೂ ಉತ್ತಮ ಬರಹಗಳು ಮೂಡಿಬರಲಿ ಎಂದು ಆಶಿಸುತ್ತೇನೆ. ಅಭಿನಂದನೆಗಳೊಂದಿಗೆ </p>
                     <div className="flex items-center mt-4 space-x-4">
-                      <img src="https://source.unsplash.com/50x50/?portrait?4" alt="" className="w-12 h-12 bg-center bg-cover rounded-full bg-gray-500" />
-                      <div>
-                        <p className="text-lg font-semibold">Leroy Jenkins</p>
-                        <p className="text-sm text-gray-400">CTO of Company Co.</p>
-                      </div>
+                        <p className="text-orange-600 text-lg font-semibold">- ಸಂತೋಷ್</p>
+                        <p className="text-orange-600 text-sm">ಅಬಕಾರಿ ಎಸ್ಪಿ ಚಿಕ್ಕಮಗಳೂರು</p>
                     </div>
                   </div>
                 </div>
