@@ -5,17 +5,17 @@ const AuthorInfo = () => {
     <>
       <h2 className="text-4xl lg:text-5xl font-semibold text-center mt-10 text-orange-600">ಲೇಖಕರ ಪರಿಚಯ</h2>
       <div className="mt-10 lg:mr-44 flex flex-col md:flex-row items-center">
-        <div className="lg:1/3 lg:ml-24 mb-4 md:mr-8 md:w-1/2 hover:scale-105 transition-transform duration-300 ease-in-out">
+        <div className="lg:w-1/3 lg:ml-24 mb-4 md:mr-8 md:w-1/2 hover:scale-105 transition-transform duration-300 ease-in-out">
           <Image
               src="/author.jpg"
-              className="rounded-lg object-cover"
+              className="rounded-lg mx-2"
               alt="Author Photo"
-              width={400}
-              height={225}
+              width={380}
+              height={215}
           />
         </div>
 
-        <div className="lg:w-2/3 md:w-1/2 p-5">
+        <div className=" mt-5 lg:w-2/3 md:w-1/2 p-5">
           <h2 className="text-3xl font-bold mb-4">ರಮ್ಯ. ಎಸ್.</h2>
           <p className="text-gray-700">
           ಆರಂಭದಲ್ಲಿ "ಶ್ರೀರಾಜರಾಜೇಶ್ವರಿ" ಎನ್ನುವ ಹೆಸರಿನಿಂದ ಬರವಣಿಗೆ ಆರಂಭಿಸಿದ ಇವರ ನಿಜನಾಮಧೇಯ ರಮ್ಯ ಎಸ್. ನಿರಂತರ ಕಲಿಕೆಯಲ್ಲಿ ಆಸಕ್ತಿ ಹೊಂದಿರುವ ಇವರು ವೃತ್ತಿಯಲ್ಲಿ ಶಿಕ್ಷಕಿ, ಪ್ರವೃತಿಯಲ್ಲಿ ಆಪ್ತ ಸಮಾಲೋಚಕಿ ಮತ್ತು ಹವ್ಯಾಸಿ ಬರಹಗಾರ್ತಿ.

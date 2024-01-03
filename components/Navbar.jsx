@@ -13,9 +13,15 @@ const Navbar = () => {
   return (
     <header className="header">
 
-      <Link href="/" className="logo no-underline">
-        Read<span class="yellow">me</span>
-      </Link>
+          <a href="/">
+            <Image
+              src="/logo.png" 
+              alt="logo"
+              width={200}
+              height={90}
+              className="object-contain"
+            />
+          </a>
 
       <nav className={`navbar ${isNavbarVisible ? 'show' : ''}`}>
         <Link href="/" className="log no-underline">Home</Link>
