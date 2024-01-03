@@ -7,7 +7,7 @@ const Button = () => {
     <>
         <div className='ml-12 mt-4'>
             <button
-              className="overflow-hidden relative w-32 p-2 h-12 bg-orange-600 text-white border-none rounded-md text-xl font-bold cursor-pointer relative z-10 group"
+              className="overflow-hidden w-32 p-2 h-12 bg-orange-600 text-white border-none rounded-md text-xl font-bold cursor-pointer relative z-10 group"
             >
               Buy Now
               <span
