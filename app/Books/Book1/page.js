@@ -2,6 +2,8 @@
 import React from 'react';
 import Image from 'next/image';
 import Navbar from '../../../components/Navbar';
+import Button from '../../../components/Button'
+
 
 const Page= () => {
   return (
@@ -16,6 +18,7 @@ const Page= () => {
               width={200}
               height={170}
           />
+          <Button/>
         </div>
         <div className="lg:w-4/5 md:w-1/2 p-3">
           <h2 className="text-4xl font-bold text-orange-600 mb-5 ">ಪ್ರತ್ಯುತ್ಕ್ರಮ</h2>

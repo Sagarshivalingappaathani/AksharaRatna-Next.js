@@ -2,6 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Navbar from '../../../components/Navbar';
+import Button  from '../../../components/Button';
 
 const Page= () => {
   return (
@@ -16,9 +17,10 @@ const Page= () => {
               width={200}
               height={112}
           />
+          <Button/>
         </div>
         <div className="lg:w-4/5 md:w-1/2 p-3">
-          <h2 className="text-3xl font-bold mb-4"></h2>
+        <h2 className="text-4xl font-bold text-green-600">ತತ್ತ್ವಮಸಿ</h2>
           <p className="text-gray-700 ">
               ಸಂಸ್ಕೃತದ ಮೂಲದಲ್ಲಿ ‘ತತ್ತ್ವಮಸಿ’- "ಅದೆಲ್ಲವೂ ನೀನೇ ಆಗಿರುವೆ" ಎನ್ನುವ ಅರ್ಥ ಕೊಡುವ ಪದ. ('ತತ್- ಅದು , ತ್ವಮ್- ನೀನೇ , ಅಸಿ- ಆಗಿರುವೆ ')
               ಈ ಭೂಮಿ ಮೇಲೆ ಎಲ್ಲಾ ಜೀವಿಗಳು ಸಮಾನರು ಎನ್ನುವುದು ಸೃಷ್ಟಿಗೆ ಕಾರಣವಾದ ದೈವದ ಪ್ರತಿಪಾದನೆ. ನಿಜವಾಗಿಯೂ ಸಮಾನತೆ ಎನ್ನುವುದು ಇದೆಯೇ? ಇದಕ್ಕೆ ಉತ್ತರ ಅಷ್ಟು ಸುಲಭವಾಗಿ ಸಿಗುವುದಿಲ್ಲ. ನಾವೆಷ್ಟೇ ಮುಂದುವರೆದ ಸಮಾಜದಲ್ಲಿದ್ದೇವೆ ಎಂದುಕೊಂಡರು, ಅನೇಕ ವಿಷಯಗಳಲ್ಲಿ ಗಂಡು ಹೆಣ್ಣಿನ ಮಧ್ಯೆ ತಾರತಮ್ಯ ಇಂದಿಗೂ ಇದೆ. 

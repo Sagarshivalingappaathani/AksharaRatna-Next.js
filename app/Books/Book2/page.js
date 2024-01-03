@@ -2,6 +2,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Navbar from '../../../components/Navbar';
+import  Button  from '../../../components/Button';
 
 const Page= () => {
   return (
@@ -16,9 +17,10 @@ const Page= () => {
               width={200}
               height={112}
           />
+          <Button/>
         </div>
         <div className="lg:w-4/5 md:w-1/2 p-3">
-          <h2 className="text-4xl font-bold text-orange-600 mb-4">ನೇರಳೆ  ಅಂಚು  ಗಿಳಿಹಸಿರು  ಸೀರೆ!!</h2>
+          <h2 className="text-4xl font-bold text-green-600 mb-4">ನೇರಳೆ  ಅಂಚು  ಗಿಳಿಹಸಿರು  ಸೀರೆ!!</h2>
           <p className="text-gray-700 ">
             "ನೇರಳೆ  ಅಂಚು  ಗಿಳಿಹಸಿರು  ಸೀರೆ!!" ಮುನ್ನುಡಿ: 
 
