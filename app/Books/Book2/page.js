@@ -8,7 +8,7 @@ const Page= () => {
   return (
     <>
       <Navbar/>
-      <div className="mt-44 lg:mr-44 flex flex-col md:flex-row items-center">
+      <div className="mt-44 lg:mr-44 flex flex-col md:flex-row items-center p-5">
         <div className="lg:w-1/5 lg:ml-24 mb-4 md:mr-8 md:w-1/2 hover:scale-105 transition-transform duration-300 ease-in-out">
           <Image
               src="/book2.jpg"
@@ -34,7 +34,7 @@ const Page= () => {
           </p>
         </div>
       </div>
-      <div className='lg:mx-20'>
+      <div className='lg:mx-20 p-5'>
           <p className='text-gray-700 ml-5'>
               ಸರಳ  ಶೈಲಿ , ಸುಂದರಭಾವ  ತುಂಬಿದ  ಮನಸೆಳೆವ  ಕಥೆ, ರತ್ನ, ಪಾರಿಜಾತರ  ಸ್ನೇಹ , ಅಚಿಂತ್ಯ, ಅಮೃತಾ  ನಡುವೆ  ಅರಳಿದ  ಪ್ರೀತಿ, ಮನೆಯವರೆಲ್ಲರ  ಸುಂದರ  ಬಾಂಧವ್ಯ  ಎಲ್ಲವನ್ನೂ  ಮನ ಸೆಳೆವಂತೆ ಪ್ರಸ್ತುತ ಪಡಿಸಿದ್ದಾರೆ ಲೇಖಕಿ.
 

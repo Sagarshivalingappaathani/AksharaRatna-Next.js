@@ -8,7 +8,7 @@ const Page= () => {
   return (
     <>
       <Navbar/>
-      <div className="mt-44 lg:mr-44 flex flex-col md:flex-row items-center">
+      <div className="mt-44 lg:mr-44 flex flex-col md:flex-row items-center p-5">
         <div className="lg:w-1/5 lg:ml-24 mb-4 md:mr-8 md:w-1/2 hover:scale-105 transition-transform duration-300 ease-in-out">
           <Image
               src="/book3.jpg"

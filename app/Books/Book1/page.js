@@ -9,7 +9,7 @@ const Page= () => {
   return (
     <>
       <Navbar/>
-      <div className="mt-44 lg:mr-44 flex flex-col md:flex-row items-center">
+      <div className="mt-44 lg:mr-44 flex flex-col md:flex-row items-center p-5">
         <div className="lg:w-1/5 lg:ml-24 mb-4 md:mr-8 md:w-1/2 hover:scale-105 transition-transform duration-300 ease-in-out">
           <Image
               src="/book1.jpg"
@@ -35,7 +35,7 @@ const Page= () => {
           </p>
         </div>
       </div>
-      <div className='lg:mx-20'>
+      <div className='lg:mx-20 p-5'>
           <p className='text-gray-700 ml-5'>
             ರಾಜಕೀಯ ವ್ಯಕ್ತಿಗಳು ಅಧಿಕಾರಿಗಳನ್ನು ಹೇಗೆಲ್ಲಾ ನಡೆಸಿಕೊಳ್ಳುತ್ತಾರೆ, ಅಧಿಕಾರಿಗಳು ರಾಜಕೀಯ ಮುಖಂಡರ ಕಪಿಮುಷ್ಠಿಗೆ ಸಿಲುಕಿದರೆ, ಅದರಿಂದ ಹೊರ ಬರಲು ಏನೇನು ತೊಂದರೆ ಅನುಭವಿಸುತ್ತಾರೆ ಎನ್ನುವುದನ್ನು ಎಳೆಎಳೆಯಾಗಿ ಬಿಡಿಸಿ ಬರೆದಿದ್ದಾರೆ. ಕತೆಯುದ್ದಕ್ಕೂ ಕಾಡುವುದು ಪ್ರತಿಕ್ಷಾ ಮೌನ, ಪ್ರೇಮ್'ನ ನಿಗೂಢ ನಡುವಳಿಕೆ. ಅವನು ಸದಾ ಪ್ರತಿಕ್ಷಳ ಮೇಲೆ ಕಣ್ಣಿಟ್ಟು ಕಾಯುವ ರೀತಿ ನೋಡಿದರೆ ಅವನೊಬ್ಬ ಶ್ರೀಮಂತ ಮನೆತನದ ಹಾಳುಬಿದ್ದ, ಸ್ತ್ರೀಲೋಲ ಮಗ ಇರಬೇಕು ಎನ್ನುವ ಅನುಮಾನ ಮೂಡಿಸುತ್ತದೆ.
 
