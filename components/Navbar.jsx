@@ -23,9 +23,9 @@ const Navbar = () => {
           </a>
 
       <nav className={`navbar ${isNavbarVisible ? 'show' : ''}`}>
-        <Link href="/" className="log no-underline" onClick={handleHamburgerClick}>Home</Link>
-        <Link href="#books" className="log no-underline" onClick={handleHamburgerClick}>Books</Link>
-        <Link href="#contact" className="log no-underline" onClick={handleHamburgerClick}>Contact Us</Link>
+        <Link href="./" className="log no-underline" onClick={handleHamburgerClick}>Home</Link>
+        <Link href="https://akshararatna.vercel.app/#books" className="log no-underline" onClick={handleHamburgerClick}>Books</Link>
+        <Link href="https://akshararatna.vercel.app/#contact" className="log no-underline" onClick={handleHamburgerClick}>Contact Us</Link>
       </nav>
 
       <div className="hamburger" onClick={handleHamburgerClick}>
