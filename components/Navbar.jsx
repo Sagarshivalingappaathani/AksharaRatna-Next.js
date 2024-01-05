@@ -30,7 +30,7 @@ const Navbar = () => {
 
       <div className="hamburger" onClick={handleHamburgerClick}>
       <Image
-            src="/grid-outline.svg" 
+            src="/menu.png" 
             alt="logo"
             width={180}
             height={90}
